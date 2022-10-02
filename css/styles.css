@@ -147,6 +147,7 @@ body {
 
 .header-mail,
 .header-tel {
+        display: flex;
         padding-top: 32px;
         padding-bottom: 32px;
         display: block;
@@ -181,6 +182,7 @@ color: var(--accent-color);
 .mail-icon, .tel-icon {
         fill: #757575;
         margin-right: 10px;
+        justify-items: center;
 }
 
 
@@ -557,6 +559,10 @@ color: var(--accent-color);
         align-items: center;
 }
 
+.footer-connection {
+        display: flex;
+}
+
 
 .footer-logo {
         display: flex;
@@ -570,13 +576,14 @@ color: var(--accent-color);
         margin-bottom: 9px;
 }
 
+.footer-item:last-child {
+        margin-bottom: 0;
+}
+
 .footer-item:first-child {
         margin-top: 20px;
 }
 
-.footer-item :last-child {
-        margin-bottom: 0;
-}
 
 .footer-studio {
     color: #FFFFFF;
